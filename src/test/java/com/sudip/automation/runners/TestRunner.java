@@ -9,8 +9,11 @@ import org.junit.runner.RunWith;
         glue = {"com.sudip.automation.steps", "com.sudip.automation.hooks"},          // Step + Hooks packages
         plugin = {
                 "pretty",                                        // Console readable output
+                "summary",
                 "html:target/cucumber-report.html",              // HTML Report
-                "json:target/cucumber.json"                      // JSON Report (optional)
+                "json:target/cucumber.json",                     // JSON Report (optional)
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+                //"tech.grasshopper.extentreports.cucumber.adapter.ExtentCucumberAdapter"
         },
         tags = "@Regression",
         monochrome = true,                                       // Removes unreadable chars from console
@@ -18,4 +21,5 @@ import org.junit.runner.RunWith;
 )
 public class TestRunner {
     // No code required here — Cucumber + JUnit handle execution
+
 }

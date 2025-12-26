@@ -1,0 +1,4 @@
+com\sudip\automation\runners\TestRunner.class
+com\sudip\automation\hooks\Hook.class
+com\sudip\automation\steps\demoStep.class
+com\sudip\automation\pages\LoginPage.class

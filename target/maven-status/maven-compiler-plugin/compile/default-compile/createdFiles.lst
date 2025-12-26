@@ -1,0 +1,15 @@
+com\sudip\framework\reporting\ScreenshotUtil$ScreenshotResult.class
+com\sudip\framework\reporting\ReportUtil.class
+com\sudip\framework\core\DriverFactory.class
+com\sudip\framework\reporting\ExtentManager.class
+com\sudip\framework\reporting\EvidenceCollector.class
+com\sudip\framework\reporting\ScreenshotUtil.class
+com\sudip\framework\dataControll\ExcelUtil.class
+com\sudip\framework\dataControll\JsonUtil.class
+com\sudip\framework\ui\ElementUtils.class
+com\sudip\framework\core\BasePage.class
+com\sudip\framework\logging\LogUtil.class
+com\sudip\framework\reporting\VideoRecordingUtil.class
+com\sudip\framework\config\ConfigReader.class
+com\sudip\framework\wait\WaitUtils.class
+com\sudip\framework\config\FrameworkConfig.class
